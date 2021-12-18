@@ -1,0 +1,8 @@
+.recipe {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+}
