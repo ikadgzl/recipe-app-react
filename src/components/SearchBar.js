@@ -6,7 +6,9 @@ export default function SearchBar() {
   const [term, setTerm] = useState('');
   const navigate = useNavigate();
 
-  const onChangeHandler = (e) => [setTerm(e.target.value)];
+  const onChangeHandler = (e) => {
+    setTerm(e.target.value);
+  };
 
   const submitHandler = (e) => {
     e.preventDefault();
